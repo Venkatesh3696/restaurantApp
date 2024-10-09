@@ -19,7 +19,7 @@ export const menuItemSchema = new mongoose.Schema({
 	},
 });
 
-const restaurantSchema = mongoose.Schema({
+export const restaurantSchema = mongoose.Schema({
 	name: {
 		type: String,
 		required: true,
